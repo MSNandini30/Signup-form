@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(12, 152, 140, 0.89);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+}
+
+#box1 {
+  background: url(../Signup-form/media/PHOTOGRAPH.jpg);
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  background-size: cover;
+  width: 450px;
+  height: 600px;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  margin: auto;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#box11 {
+  color: white;
+  margin-top: 96px;
+  /* margin-right: 5px; */
+}
+
+#box11 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+#box12 {
+  color: white;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* img{
+    width: 500px;
+    height: 600px;
+} */
+
+#box2 {
+  background-color: white;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#box21 {
+  margin-bottom: 25px;
+}
+
+#box21 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin-top: 5px;
+  font-size: smaller;
+}
+
+#box21 h1 {
+  color: rgba(12, 152, 140, 0.89);
+}
+
+input {
+  /* display: block; */
+  margin: auto;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  width: 250px;
+  height: 35px;
+  border: none;
+  background-color: rgb(200, 198, 198);
+}
+
+#b1 {
+  /* display: block; */
+  width: 100px;
+  height: 35px;
+  margin: auto;
+  border: none;
+  color: white;
+  background-color: black;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#b2 {
+  /* display: block; */
+  width: 100px;
+  height: 35px;
+  margin: auto;
+  border: none;
+  color: white;
+  background-color: rgba(12, 152, 140, 0.89);
+}
+
+.button {
+  margin-left: 100px;
+}
+
+#box2 form {
+  width: 400px;
+}
+
+#i1 {
+  width: 20px;
+  height: 20px;
+  /* margin-left: 20px; */
+  margin-right: 10px;
+}
+
+#i2 {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#i3 {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.gender {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 20px;
+}
+
+a:hover {
+  color: rgba(12, 152, 140, 0.89);
+}
+
+label:hover {
+  color: rgba(12, 152, 140, 0.89);
+}
